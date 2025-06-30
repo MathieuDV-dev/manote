@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "CHANGE_THIS_ID": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://mathieudv-dev.github.io/manote/releases/manote-1.0.xpi"
+        }
+      ]
+    }
+  }
+}

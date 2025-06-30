@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.1",
+  "description": "__MSG_extDescription__",
+  "default_locale": "fr",
+
+  "action": {
+    "default_icon": {
+      "48": "icons/icon.png",
+      "96": "icons/icon@2x.png"
+    },
+    "default_title": "__MSG_extName__"
+  },
+
+  "permissions": ["storage", "scripting"],
+
+  "host_permissions": [
+    "file:///*",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "manote@mdv.corsica"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
+  }
+}

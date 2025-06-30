@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "Manote"
+  },
+  "extDescription": {
+    "message": "Note-taking for Daisy HTML files and web pages. Can work on its own, but designed to be used with the Daisynon extension, which converts Daisy Text (.xml) files into accessible HTML."
+  }
+}

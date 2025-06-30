@@ -1,0 +1,27 @@
+# Build output
+releases/
+
+# Logs
+*.log
+*.log.*
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Extensions spécifiques
+*.xpi
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Manifest V3 spécifiques
+# Ne pas ignorer manifest.json car c’est essentiel, mais ignorer les fichiers de build temporaires si tu en as
+*.build.js
+*.map
